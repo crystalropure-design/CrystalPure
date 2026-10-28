@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Crystal Pure — Pure RO · Pure Life. Clean, refreshing drinking water for everyday life.">
+  <title>Crystal Pure — Pure RO · Pure Life</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="Crystal Pure home">
+    <span class="brand-mark">CP</span>
+    <span><b>Crystal Pure</b><small>Pure RO · Pure Life</small></span>
+  </a>
+  <button class="menu" aria-label="Open menu">☰</button>
+  <nav>
+    <a href="#water">Water</a>
+    <a href="#process">Purification</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">PURE RO · PURE LIFE</p>
+    <h1>Pure water.<br><em>Pure life.</em></h1>
+    <p class="lead">Crystal Pure brings clean, refreshing drinking water to your everyday life, with a focus on purity, care and quality.</p>
+    <div class="actions">
+      <a class="btn primary" href="#water">Explore our water</a>
+      <a class="btn ghost" href="#contact">Get in touch</a>
+    </div>
+  </div>
+  <div class="hero-art" aria-label="Crystal Pure water bottle illustration">
+    <div class="orb orb1"></div><div class="orb orb2"></div>
+    <div class="bottle">
+      <div class="cap"></div><div class="neck"></div>
+      <div class="bottle-body"><div class="label"><strong>CRYSTAL</strong><span>PURE</span><small>PURE RO · PURE LIFE</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="water" class="water section">
+  <div class="section-head">
+    <p class="eyebrow">CRYSTAL PURE WATER</p>
+    <h2>Made for the moments<br>that matter.</h2>
+    <p>Fresh-tasting water, thoughtfully purified and prepared for daily hydration.</p>
+  </div>
+  <div class="cards">
+    <article class="card"><span class="icon">💧</span><h3>Pure & refreshing</h3><p>A clean, crisp taste designed for everyday drinking.</p></article>
+    <article class="card"><span class="icon">◌</span><h3>RO purification</h3><p>Reverse-osmosis purification helps reduce unwanted impurities.</p></article>
+    <article class="card"><span class="icon">✦</span><h3>Quality focused</h3><p>Carefully presented with purity and consistency at the heart of the brand.</p></article>
+  </div>
+</section>
+
+<section id="process" class="process section">
+  <div class="process-visual"><div class="drop">💧</div><div class="rings"></div></div>
+  <div>
+    <p class="eyebrow">THE CRYSTAL PURE WAY</p>
+    <h2>From source to sip,<br>purity comes first.</h2>
+    <div class="steps">
+      <div><b>01</b><span><strong>Purify</strong><br>Water passes through a multi-stage purification approach.</span></div>
+      <div><b>02</b><span><strong>Protect</strong><br>Clean handling and careful preparation preserve quality.</span></div>
+      <div><b>03</b><span><strong>Refresh</strong><br>Enjoy fresh, clean water whenever you need it.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about section">
+  <p class="eyebrow">ABOUT CRYSTAL PURE</p>
+  <h2>A simple promise:<br><em>pure water, every day.</em></h2>
+  <p class="about-copy">Crystal Pure is built around one clear idea — drinking water should feel clean, dependable and refreshing. Our brand combines a modern approach to RO purification with a simple, human focus on everyday life.</p>
+</section>
+
+<section id="contact" class="contact section">
+  <div><p class="eyebrow">CONTACT</p><h2>Let's keep life<br>pure.</h2><p>For orders, product information or business enquiries, get in touch with Crystal Pure.</p></div>
+  <form onsubmit="event.preventDefault(); alert('Thanks! Your enquiry has been noted.');">
+    <input aria-label="Name" placeholder="Your name" required>
+    <input type="email" aria-label="Email" placeholder="Email address" required>
+    <textarea aria-label="Message" placeholder="How can we help?" rows="5" required></textarea>
+    <button class="btn primary" type="submit">Send enquiry</button>
+  </form>
+</section>
+</main>
+
+<footer><div class="brand"><span class="brand-mark">CP</span><span><b>Crystal Pure</b><small>Pure RO · Pure Life</small></span></div><p>© <span id="year"></span> Crystal Pure. Pure water. Pure life.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
